@@ -1,0 +1,26 @@
+{
+    "name": "pestrich/docker-compose-demo",
+    "description": "Тестовое приложение с использованием Docker Compose. Контейнеры: PHP, Nginx",
+    "type": "project",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Vitaly",
+            "email": "bnm9229bnm@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
