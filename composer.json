@@ -1,5 +1,5 @@
 {
-    "name": "pestrich/docker-compose-demo",
+    "name": "pestrich/docker-compose-php-template",
     "description": "Тестовое приложение с использованием Docker Compose. Контейнеры: PHP, Nginx",
     "type": "project",
     "minimum-stability": "stable",
@@ -7,12 +7,12 @@
     "prefer-stable": true,
     "authors": [
         {
-            "name": "Vitaly",
+            "name": "Vitaly Kuznetsov",
             "email": "bnm9229bnm@yandex.ru"
         }
     ],
     "require": {
-        "php": ">=8.2"
+        "php": "8.2.*"
     },
     "config": {
         "sort-packages": true,

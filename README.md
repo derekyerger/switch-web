@@ -12,13 +12,13 @@ docker-compose -f docker-compose.yml up -d --build
 docker-compose -f docker-compose.yml up -d
 ```
 
-### Copy composer.lock file from container
+### Copy `composer.lock` file from container
 
 ```bash
 docker cp php-fpm:/var/www/composer.lock ./composer.lock
 ```
 
-### Copy vendor directory from container
+### Copy `vendor` directory from container
 
 ```bash
 docker cp php-fpm:/var/www/vendor ./
