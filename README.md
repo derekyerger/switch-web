@@ -1,4 +1,8 @@
-# Тестовое приложение с использованием Docker Compose. Контейнеры: PHP, Nginx
+# Switch web component
+
+This is a containerized version of the web component of the accessibility switch. It can configure the switch firmware via serial, and forseeably be hosted as a cloud service.
+
+The contents of `manage.altdevs.net` should be placed in `public`.
 
 ### Build
 

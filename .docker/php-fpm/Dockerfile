@@ -30,4 +30,7 @@ RUN composer install --no-progress --no-interaction --no-scripts --no-cache
 # Hack: link 'sh' to 'bash'
 RUN ln -sf /bin/bash /bin/sh
 
+# tty permissions
+RUN usermod -a -G dialout www-data
+
 CMD ["php-fpm"]
